@@ -1,0 +1,65 @@
+.custom-node {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #b2f0e3;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .header {
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-icon {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .whatsapp-icon{
+    height: 24px;
+    color: #25D366;
+ 
+  
+  }
+  
+  .content {
+    padding: 15px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .label {
+    color: rgb(2, 2, 2);
+    font-weight: 100;
+  }
+  
+  .source-handle {
+    position: absolute;
+    top: 50px;
+    right: 10;
+  }
+  
+  .target-handle {
+    position: absolute;
+    top: 50px;
+    left: 10;
+  }
+
+  @media (max-width: 768px) {
+    .custom-node {
+      width: 180px;
+    }
+  }
+  

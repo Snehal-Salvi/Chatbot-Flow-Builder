@@ -1,0 +1,52 @@
+
+.save-button {
+  width: 200px;
+  background-color: #ffffff;  
+  color: rgba(36, 70, 193, 0.842);  
+  border: 2px solid rgba(36, 70, 193, 0.842);
+  padding: 10px 20px;  
+  text-align: center;  
+  text-decoration: none;  
+  display: inline-block;  
+  font-size: 16px; 
+  margin: 4px 2px;  
+  cursor: pointer;  
+  border-radius: 4px;  
+  font-weight: bold;
+}
+
+.save-button:hover {
+  background-color: #d0e2ff;  
+}
+
+.message {
+  position: absolute;
+  top: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 1000;  
+  width: 80%;  
+  max-width: 500px;  
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.message-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
