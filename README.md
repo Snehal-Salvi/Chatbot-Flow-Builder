@@ -6,6 +6,14 @@ Chatbot Flow Builder is a web application that allows users to create flow diagr
 
 [Chatbot Flow Builder ](https://66697220847531a35a9ad5d2--dazzling-biscuit-38a492.netlify.app/)
 
+## App Demo
+
+
+
+https://github.com/user-attachments/assets/4631d457-283d-43d1-b39a-e6dd9e8bbb0c
+
+
+
 ## App Screenshots
 
 **App Dashboard**
